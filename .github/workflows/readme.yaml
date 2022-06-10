@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v3
       - uses: readmeio/rdme@v1.0.0
         with:
-          rdme: openapi swagger.json --key=rdme_xn8s9hef50746e6bce53841dfec631338be3e0dd0f36d4b0d0ae6077406d46069270c0 --id=API_DEFINITION_ID
+          rdme: openapi ./ --key=rdme_xn8s9hef50746e6bce53841dfec631338be3e0dd0f36d4b0d0ae6077406d46069270c0 --id=API_DEFINITION_ID
