@@ -1,0 +1,13 @@
+name: Sync OAS to ReadMe
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: readmeio/rdme@vXX
+        with:
+          rdme: openapi [file] --key=rdme_xn8s9hef50746e6bce53841dfec631338be3e0dd0f36d4b0d0ae6077406d46069270c0 --id=API_DEFINITION_ID
